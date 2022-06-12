@@ -1,10 +1,12 @@
-package com.ihsan.simlab;
+package com.ihsan.simlab.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+
+import com.ihsan.simlab.R;
 
 public class LoginActivity extends AppCompatActivity {
 

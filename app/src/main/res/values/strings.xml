@@ -7,4 +7,5 @@
     <string name="select_pilih_tipe_pengguna">Pilih Tipe Pengguna</string>
     <string name="btn_masuk">Masuk</string>
     <string name="tv_pengunjung_belum_punya_akun_buat_akun">Pengunjung Belum Punya Akun? Buat Akun</string>
+    <string name="tv_register">REGISTER</string>
 </resources>

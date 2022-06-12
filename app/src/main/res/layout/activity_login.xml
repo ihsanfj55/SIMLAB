@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".activity.LoginActivity">
 
     <TextView
         android:id="@+id/tv_Login"
@@ -109,6 +109,7 @@
         android:background="@color/blue_jeans"
         android:fontFamily="@font/poppinsbold"
         android:text="@string/btn_masuk"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="22sp"
         app:layout_constraintTop_toBottomOf="@+id/et_password" />
