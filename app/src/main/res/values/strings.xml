@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SIMLAB</string>
+    <string name="tv_login">LOGIN</string>
+    <string name="tv_sistem_informasi_manajemen_lab">Sistem Informasi Manajemen Lab</string>
+    <string name="tv_silahkan_isi_email_nip_nim">Silahkan Isi Email / NIP / NIM</string>
+    <string name="tv_silahkan_isi_password">Silahkan Isi Password</string>
+    <string name="select_pilih_tipe_pengguna">Pilih Tipe Pengguna</string>
+    <string name="btn_masuk">Masuk</string>
+    <string name="tv_pengunjung_belum_punya_akun_buat_akun">Pengunjung Belum Punya Akun? Buat Akun</string>
+</resources>
