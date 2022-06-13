@@ -10,13 +10,12 @@
         android:id="@+id/tv_Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
         android:fontFamily="@font/poppinsbold"
         android:text="@string/tv_login"
         android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_simlab"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/tv_simlab"
@@ -25,19 +24,18 @@
         android:fontFamily="@font/poppinslight"
         android:text="@string/tv_sistem_informasi_manajemen_lab"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/img_login"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_Login" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/img_login"
         android:layout_width="250dp"
         android:layout_height="210dp"
-        android:layout_marginTop="16dp"
         android:src="@drawable/backgorund_login"
+        app:layout_constraintBottom_toTopOf="@+id/text_input_layout_select"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_simlab" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/text_input_layout_select"
@@ -45,14 +43,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
         android:hint="@string/select_pilih_tipe_pengguna"
         android:textColorHint="@color/text_color"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_login">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <AutoCompleteTextView
             android:id="@+id/autoCompletePengguna"
@@ -103,26 +98,23 @@
         android:id="@+id/btn_masuk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_margin="16dp"
         android:background="@color/blue_jeans"
         android:fontFamily="@font/poppinsbold"
         android:text="@string/btn_masuk"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="22sp"
-        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+        app:layout_constraintBottom_toTopOf="@+id/tv_buat_akun" />
 
     <TextView
         android:id="@+id/tv_buat_akun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginBottom="22dp"
         android:fontFamily="@font/poppinsregular"
-        android:text="@string/tv_pengunjung_belum_punya_akun_buat_akun"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_masuk" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
